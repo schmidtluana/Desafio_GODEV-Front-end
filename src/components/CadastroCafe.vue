@@ -22,6 +22,25 @@
     </div>
 
     <br /><button @click="salvar" class="botao" type="submit">Concluído</button>
+    
+    <div id="modal-promocao" class="modal-container" v-if="clicado">
+    <div class="modal">
+          <form>
+        <h2>Cadastrado com sucesso!</h2>
+      </form>
+    </div>
+  </div>
+
+  
+  <div id="modal-promocao" class="modal-container" v-if="verificarCampos">
+    <div class="modal">
+       <form>
+        <h2>É necessário preencher todos os campos</h2>
+      </form>
+    </div>
+  </div>
+    
+
   </body>
 </template>
 
@@ -32,25 +51,51 @@ export default {
     return {
       nome: "",
       lotacao: 0,
+      clicado: false,
+      verificarCampos: false,
+      
     };
   },
   methods: {
     salvar: function () {
+       var contador = 0;
+      if (contador == 0){
+        if (
+          this.nome == "" &&
+          this.lotacao == "" 
+        ) {
+          this.verificarCampos = true;
+      }
+      if (
+        this.nome == "" ||
+        this.lotacao == "" 
+      ) {
+        this.verificarCampos = true;
+      }
+      if (
+        this.nome != "" &&
+        this.lotacao != "" 
+      ) {     
       axios
         .post("http://localhost:54732/api/Cafe", {
           nome: this.nome,
           lotacao: this.lotacao,
         })
-        .then((resp) => console.log(resp.data));
+        .then((resp) => {
+          console.log(resp.data)
+          this.clicado = true;
+          });
       this.reloadPage();
+    } //axios
+    }
     },
     reloadPage: function () {
       setTimeout(function () {
         location.reload();
-      }, 5000);
-    },
-  },
-};
+      }, 3000)
+    }
+  }  
+}
 </script>
 
 <style>
@@ -186,6 +231,30 @@ fieldset.grupo .campo {
 .botao,
 select {
   cursor: pointer;
+}
+.modal-container {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal {
+  background: rgb(182, 143, 233);
+  width: 30%;
+  min-width: 300px;
+  padding: 40px;
+  border: 10px solid ;
+  box-shadow: 0 0 0 10px rgb(182, 143, 233);
+  position: relative;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 </style>
 

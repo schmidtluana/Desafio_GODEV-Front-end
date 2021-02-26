@@ -121,7 +121,7 @@ npm run test
 
 Seguir a ordem abaixo da execusão dos programas:
 - Criar Banco de Dados (com o script)<br>
-- Abrir VSudio com Back-end (Depurar o projeto IIS Express)<br>
+- Abrir VStudio com Back-end (Depurar o projeto IIS Express)<br>
 - Abrir o VSCode com o Front-end (abrir o localhost http://localhost:8080/ no navegador web de sua preferefência)
 
 ---

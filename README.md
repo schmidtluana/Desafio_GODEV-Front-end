@@ -21,8 +21,8 @@ O projeto foi desenvolvido com o objetivo de gerenciar um programa de treinament
 
 Este projeto é divido em três partes:
 
-1. Front-end - Programa_GODEV-Front-end  <br>
-2. Back-end - Programa_GODEV-Back-end - https://github.com/schmidtluana/Programa_GODEV-Back-end.git <br>
+1. Front-end - Desafio_GODEV-Front-end  <br>
+2. Back-end - Desafio_GODEV-Back-end - https://github.com/schmidtluana/Desafio_GODEV-Back-end.git <br>
 3. Teste Unitário - Teste_Unitario - https://github.com/schmidtluana/Teste_Unitario.git <br>
 
 💡 Juntamente com a pasta do Front-end estará o arquivo "Script dados" onde você encontrará o script do Banco de Dados SQL Server <br>
@@ -38,7 +38,7 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 
 ```bash
 # Copie o script do banco de dados 
-https://github.com/schmidtluana/Programa_GODEV-Front-end/blob/main/Script%20dados.txt
+https://github.com/schmidtluana/Desafio_GODEV-Front-end/blob/master/Script%20dados
 
 # Abra o SQL Server
 # Nova Consulta
@@ -54,7 +54,7 @@ https://github.com/schmidtluana/Programa_GODEV-Front-end/blob/main/Script%20dado
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/schmidtluana/Programa_GODEV-Back-end.git
+$ git clone https://github.com/schmidtluana/Desafio_GODEV-Back-end.git
 
 # Abra o projeto no VStudio
 
@@ -77,7 +77,7 @@ $ IIS Express
 ```bash
 
 # Clone este repositório
-$ git clone https://github.com/schmidtluana/Programa_GODEV-Front-end.git
+$ git clone https://github.com/schmidtluana/Desafio_GODEV-Front-end.git
 
 # Vá para a pasta da aplicação Front End
 # Abra a pasta no VSCode

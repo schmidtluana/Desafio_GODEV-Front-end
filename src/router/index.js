@@ -3,8 +3,9 @@ import VueRouter from 'vue-router'
 import CadastroPessoas from '../views/Cadastro_pessoas.vue'
 import CadastroSalas from '../views/Cadastro_salas.vue'
 import CadastroCafe from '../views/Cadastro_espaco.vue'
-import Consulta from '../views/Consulta.vue'
-
+import ConsultaSalas from '../views/Consulta_salas.vue'
+import ConsultaPessoas from '../views/Consulta_pessoas.vue'
+import ConsultaCafe from '../views/Consulta_cafe.vue'
 
 Vue.use(VueRouter)
 
@@ -25,9 +26,19 @@ const routes = [
     component: CadastroCafe
   },
   {
-    path: '/consulta',
-    name: 'Consulta',
-    component: Consulta
+    path: '/consulta_salas',
+    name: 'ConsultaSalas',
+    component: ConsultaSalas
+  },
+  {
+    path: '/consulta_pessoas',
+    name: 'ConsultaPessoas',
+    component: ConsultaPessoas
+  },
+  {
+    path: '/consulta_cafe',
+    name: 'ConsultaCafe',
+    component: ConsultaCafe
   }
 ]
 

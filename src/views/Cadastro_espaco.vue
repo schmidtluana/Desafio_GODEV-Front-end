@@ -1,6 +1,6 @@
 <template>
   <div class="cadastro_espaco">
-    <cadastro-espaco/>
+    <cadastro-cafe/>
     
   </div>
 </template>

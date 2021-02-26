@@ -1,17 +1,17 @@
 <template>
-  <div class="cadastro_salas">
-    <cadastro-salas/>
-    
+  <div>
+    <cadastro-salas />
   </div>
 </template>
 
 <script>
-
-import cadastroSalas from '../components/CadastroSalas.vue'
-
+import cadastroSalas from "../components/CadastroSalas.vue";
 export default {
-   components: {
-    cadastroSalas
-    
-  }
-}
+  components: {
+    cadastroSalas,
+  },
+};
+</script>
+
+<style>
+</style>

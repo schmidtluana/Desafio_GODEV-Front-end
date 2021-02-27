@@ -140,8 +140,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ## 🦸 Autora
  <h3> Luana Caroline Schmidt </h3>
- [Entre em contato!](https://www.linkedin.com/in/luana-schmidt-5103551b9/)
- 
+
 ---
 
 ## 📝 Licença

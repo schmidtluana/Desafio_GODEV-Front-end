@@ -13,7 +13,7 @@
 
 ## 💻 Sobre o projeto
 
-O projeto foi desenvolvido com o objetivo de gerenciar um programa de treinamento de uma empresa de TI. Nesse sentido, o projeto demostra o acesso a telas de cadastro e consulta de pessoas, espaços de café e também de salas. No Front-end do projeto foi utilizada a linguagem de programação JavaScript juntamente com sua biblioteca VUE.js. Já a parte do Back-end a linguagem de programação C# - ASP.NET foi a escolhida. Para a persistência de dados do projeto foi utilizado o banco de dados SQL Server Management Studio.
+O projeto foi desenvolvido com o objetivo de gerenciar um programa de treinamento de uma empresa de TI. Assim, o projeto demostra o acesso à telas de cadastro e consulta de pessoas, espaços de café e também de salas. No Front-end do projeto, foi utilizada a linguagem de programação JavaScript, juntamente com sua biblioteca VUE.js. Já na parte do Back-end a linguagem de programação C# - ASP.NET foi escolhida. Para a persistência de dados do projeto foi utilizado o banco de dados SQL Server Management Studio.
 
 ---
 
@@ -32,7 +32,7 @@ Este projeto é divido em três partes:
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 [Git](https://git-scm.com), [Microsoft SQL Server](https://www.microsoft.com/pt-br/sql-server/sql-server-downloads). 
-Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/) e [VStudio](https://visualstudio.microsoft.com/pt-br/vs/)
+Além disto é importante ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/) e [VStudio](https://visualstudio.microsoft.com/pt-br/vs/)
 
 ### 🎲 Rodando o Banco de Dados (SQL Server Management Studio)
 
